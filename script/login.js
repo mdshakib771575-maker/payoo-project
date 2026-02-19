@@ -10,12 +10,12 @@ loginBtn.addEventListener('click', function () {
       // 1. get number
     const inputNumber  = document.getElementById('input-number');
     const contacNumber = inputNumber.value;
-    console.log(contacNumber);
+    // console.log(contacNumber);
 
   // 2. get pin
     const inputPin = document.getElementById('input-pin');
     const pin = inputPin.value; 
-     console.log(pin);
+    //  console.log(pin);
 
       // 3. mach number & pin 
 
