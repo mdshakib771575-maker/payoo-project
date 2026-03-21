@@ -23,7 +23,7 @@ loginBtn.addEventListener('click', function () {
         // 3-1. true > Home page 
         alert('Login success')
         // window.location.replace('/home.html');
-        window.location.assign('/home.html');
+        window.location.href =('home.html');
       }else{
          // 3-1. false < return
         alert('Login Faild')
